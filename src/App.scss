@@ -1,0 +1,13 @@
+@import "./assets/fira-font/stylesheet.scss";
+@import './Variables.scss';
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Fira Code";
+  background-color: #25274d;
+}
+
+.page {
+  min-height: 100vh; 
+}
