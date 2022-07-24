@@ -11,3 +11,17 @@ body {
 .page {
   min-height: 100vh; 
 }
+.background{
+  max-height: 400vh;
+  overflow: hidden;
+  display: flex;
+  
+  justify-content: center;
+  .parallax {
+    position: absolute;
+    svg{
+      max-height: 720vh;
+      width: 100%;
+    }
+  }
+}

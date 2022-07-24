@@ -4,6 +4,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Skills from './Skills';
 import About from './About';
+import Background from './Background';
 import './App.scss';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <div className="App">
             <div className="bg">
               {/* {responsiveBg} */}
+              <Background />
               <div className='main'>
                 <Home /> 
                 <About />
@@ -20,7 +22,6 @@ function App() {
                 <Contact />
               </div>
             </div>
-          {/* </Parallax> */}
         </div>
     </div>
   );
