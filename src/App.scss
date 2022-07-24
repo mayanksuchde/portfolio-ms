@@ -6,20 +6,33 @@ body {
   font-family: "Fira Code";
   background-color: #25274d;
 }
+.App { 
+  text-align: center;
+  color:#f7f8f8;
+}
+.main{
+  position: absolute;
+  height:auto;
+  z-index: 2;
+}
+.bg{
+  position: absolute;
+  z-index: -2;
+}
 
 .page {
-  min-height: 100vh; 
+  min-height: 100vh;
+  scroll-snap-type:y mandatory;
 }
 .background{
   width: 100%;
-  max-height: 500vh;
   overflow: hidden;
   .parallax {
     position: absolute;
-    margin:auto
-    svg{
-     
-      width: 100%;
-    }
+    margin:auto;
   }
+}
+h2{
+  font-size: 40px;
+  margin-top:0;
 }
