@@ -3,7 +3,7 @@ import {Dialog,Button, IconButton, Slide} from '@mui/material';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import StackIcon from './StackIcon';
-import {FullscreenRounded,WebRounded} from '@mui/icons-material';
+import {FullscreenRounded,WebRounded,Close} from '@mui/icons-material';
 import {ReactComponent as GitIcon} from '../assets/othertools/github.svg';
 import './Projects.scss'
 
@@ -34,6 +34,9 @@ function ProjectDialog({details}) {
                 className='Dialog'
             >
                 <h2 className='title' >{details.name}</h2>
+                <IconButton className='close-button' onClick={handleClose}>
+                    <Close />
+                </IconButton>
                 <div className='container'>
                     <div className='mainContent'>
                     {/* SnapShots */}
