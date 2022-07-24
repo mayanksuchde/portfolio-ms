@@ -2,7 +2,6 @@
 @import './Variables.scss';
 
 body {
-  height: 100%;
   margin: 0;
   font-family: "Fira Code";
   background-color: #25274d;
@@ -12,15 +11,14 @@ body {
   min-height: 100vh; 
 }
 .background{
-  max-height: 400vh;
+  width: 100%;
+  max-height: 500vh;
   overflow: hidden;
-  display: flex;
-  
-  justify-content: center;
   .parallax {
     position: absolute;
+    margin:auto
     svg{
-      max-height: 720vh;
+     
       width: 100%;
     }
   }
