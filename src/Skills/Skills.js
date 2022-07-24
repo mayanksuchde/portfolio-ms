@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import SkillSection from './SkillSection';
 import {frontEnd,backEnd,otherTools} from './skillslist';
 import './Skills.scss';

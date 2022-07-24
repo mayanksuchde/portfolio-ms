@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {motion} from 'framer-motion';
 import { ReactComponent as GitLink } from '../assets/socials/github.svg'
 import { ReactComponent as LinkedIn } from '../assets/socials/linkedin.svg'

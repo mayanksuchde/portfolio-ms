@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 function Projects() {
     return ( <div className="projects page">
         <h2>Projects</h2>

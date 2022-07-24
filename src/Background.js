@@ -1,4 +1,4 @@
-import React,{ useState, useEffect} from 'react';
+import React,{ useEffect } from 'react';
 import Rellax from 'rellax';
 import {ReactComponent as SmallSq} from './assets/bg/smallrecs.svg'
 import {ReactComponent as MedSq} from './assets/bg/medrecs.svg'

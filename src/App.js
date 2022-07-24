@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Home from './Home/Home';
 import Projects from './Projects';
 import Contact from './Contact/Contact';
