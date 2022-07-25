@@ -6,13 +6,14 @@ h2{
 
 .projects{    
     ul{
-        margin-top:12%;
+        margin-top:4%;
         padding-left: 0;
         flex-direction: row;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         li{
+          opacity: 0.8;
           background-image:linear-gradient(to bottom right,#757ab8, #919db6) ;
           border-radius:15px;
           list-style-type: none;

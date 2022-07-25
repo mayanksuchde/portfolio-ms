@@ -6,7 +6,8 @@ import Name from './Name';
 import NameMobile from './NameMobile';
 import {WindowContext} from '../context/WindowSize';
 function Home() {
-  const { clientHeight, clientWidth } = useContext(WindowContext);
+  const { clientHeight, clientWidth, clientScreen } = useContext(WindowContext);
+  console.log(clientScreen)
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -46,7 +47,6 @@ function Home() {
       }
   
     }
-    console.log(clientWidth,clientHeight)
     return ( 
       <div className="home page">
         {(clientWidth>768)?<Name />:<NameMobile/>}
